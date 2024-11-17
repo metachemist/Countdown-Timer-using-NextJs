@@ -36,13 +36,38 @@ Follow these steps to set up the project locally:
 
 Make sure you have Node.js installed, then run:
 
-  ```bash
-  npm install
-```
+   ```bash
+    npm install
+   ```
 3.**Start the development server**:
 
   ```bash
   npm run dev
-```
+  ```
 The app will be available at http://localhost:3000.
-   
+
+## Folder Structure
+.
+├── app/
+│   ├── layout.tsx           # Main layout component (includes favicon and metadata)
+│   ├── page.tsx             # Main page component with the countdown timer functionality
+├── public/
+│   ├── favicon.ico          # Custom favicon for the application
+├── styles/
+│   └── globals.css          # Global CSS and TailwindCSS setup
+├── package.json
+└── tsconfig.json    
+
+##Usage
+
+- **Set Timer:** Enter a number (in seconds) in the input field and click the "Set" button to set the timer.
+- **Start Countdown: **Click "Start" to begin the countdown.
+- **Pause Countdown:** Click "Pause" to pause the countdown.
+- **Reset Timer:** Click "Reset" to reset the timer back to 60 seconds.
+
+## Contributing
+- Fork the repository.
+- Create your feature branch (git checkout -b feature-name).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-name).
+- Open a pull request.
