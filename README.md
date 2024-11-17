@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Countdown Timer Project
 
-## Getting Started
+A simple and interactive countdown timer application built with **Next.js** (using the App Router), **TypeScript**, and **TailwindCSS**. This project allows users to set a countdown timer by entering a duration in seconds, and the timer will count down with Start, Pause, and Reset functionalities.
 
-First, run the development server:
+## Features
+
+- **Set Timer**: Input a custom duration in seconds to start the countdown.
+- **Start, Pause, Reset**: Control the countdown with the Start, Pause, and Reset buttons.
+- **Responsive Design**: The app is designed to be fully responsive, working on both desktop and mobile devices.
+- **Styled with TailwindCSS**: A sleek and minimal design using TailwindCSS.
+- **Favicon**: Custom favicon added for better branding.
+
+## Demo
+
+[Link to your live project/demo (if applicable)](https://your-deployed-app.com)
+
+## Technologies Used
+
+- **Next.js 13** (with App Router)
+- **TypeScript**
+- **TailwindCSS**
+- **React** (for UI components)
+- **React Hooks** (for managing state and side effects)
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**:
+
+ ```bash
+      git clone https://github.com/metachemist/countdown-timer.git
+      cd countdown-timer
+ ```
+2. **Install dependencies**:
+
+Make sure you have Node.js installed, then run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+       npm install
 ```
+3.**Start the development server**:
+   
+ ```bash
+     npm run dev
+  ```
+The app will be available at http://localhost:3000. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Set Timer:** Enter a number (in seconds) in the input field and click the "Set" button to set the timer.
+- **Start Countdown: **Click "Start" to begin the countdown.
+- **Pause Countdown:** Click "Pause" to pause the countdown.
+- **Reset Timer:** Click "Reset" to reset the timer back to 60 seconds.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+- Fork the repository.
+- Create your feature branch (git checkout -b feature-name).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-name).
+- Open a pull request.
