@@ -28,37 +28,25 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/metachemist/countdown-timer.git
-   cd countdown-timer
-   ```
+      ```bash
+      git clone https://github.com/metachemist/countdown-timer.git
+      cd countdown-timer
+      ```
 2. **Install dependencies**:
 
 Make sure you have Node.js installed, then run:
 
-   ```bash
-    npm install
-   ```
+      ```bash
+       npm install
+      ```
 3.**Start the development server**:
+   
+     ```bash
+     npm run dev
+     ```
+The app will be available at http://localhost:3000. 
 
-  ```bash
-  npm run dev
-  ```
-The app will be available at http://localhost:3000.
-
-## Folder Structure
-.
-├── app/
-│   ├── layout.tsx           # Main layout component (includes favicon and metadata)
-│   ├── page.tsx             # Main page component with the countdown timer functionality
-├── public/
-│   ├── favicon.ico          # Custom favicon for the application
-├── styles/
-│   └── globals.css          # Global CSS and TailwindCSS setup
-├── package.json
-└── tsconfig.json    
-
-##Usage
+## Usage
 
 - **Set Timer:** Enter a number (in seconds) in the input field and click the "Set" button to set the timer.
 - **Start Countdown: **Click "Start" to begin the countdown.
