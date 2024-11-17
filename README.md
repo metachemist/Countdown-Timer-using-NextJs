@@ -28,22 +28,22 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
 
-      ```bash
+ ```bash
       git clone https://github.com/metachemist/countdown-timer.git
       cd countdown-timer
-      ```
+ ```
 2. **Install dependencies**:
 
 Make sure you have Node.js installed, then run:
 
-      ```bash
+```bash
        npm install
-      ```
+```
 3.**Start the development server**:
    
-     ```bash
+ ```bash
      npm run dev
-     ```
+  ```
 The app will be available at http://localhost:3000. 
 
 ## Usage
